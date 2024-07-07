@@ -3,12 +3,18 @@ import react from '@vitejs/plugin-react';
 import path from 'path';
 import { dirname } from 'path';
 import { fileURLToPath } from 'url';
+import copy from 'rollup-plugin-copy';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
 export default defineConfig({
-  plugins: [react()],
+  plugins: [
+    react(),
+    copy({
+      targets: [{ src: '404.html', dest: 'dist' }],
+    }),
+  ],
   resolve: {
     alias: {
       '@app': path.resolve(__dirname, 'src/01-app/'),
