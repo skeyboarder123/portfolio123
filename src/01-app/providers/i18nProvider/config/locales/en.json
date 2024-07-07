@@ -1,0 +1,40 @@
+{
+  "home": "home",
+  "works": "works",
+
+  "portfolio": "Portfolio of a ",
+  "reactFrontEnd": "react front-end",
+  "developer": "developer",
+  "craftWebsites": "I craft responsive websites where technologies meet creativity",
+  "Contact me!!": "Contact me!!",
+  "currentlyWorkingOn": "Currently working on Portfolio",
+  "knocksOnKeyboard": "I am the one who knocks! (on the keyboard)",
+  "quoteAuthor": "Waltuh",
+
+  "projects": "projects",
+  "viewAll": "View all ~>",
+  "Languages": "Languages",
+  "Portfolio": "Portfolio",
+  "You are using it rn": "You are using it rn",
+  "Landing Page": "Landing Page",
+  "with auth pages w/o tokens": "with auth pages w/o tokens",
+  "CS cheats": "CS cheats",
+  "discarded development": "discarded development",
+  "Other": "Other",
+  "Frameworks": "Frameworks",
+  "Tools": "Tools",
+
+  "skills": "skills",
+
+  "about-me": "about-me",
+  "My projects": "My projects",
+  "hello": "Hello, i'm",
+  "self-taught": "I'm a self-taught front-end developer based in Moscow, Russia. I can develop responsive websites from scratch and raise them into modern user-friendly web experiences.",
+  "passion": "Transforming my creativity and knowledge into websites has been my passion for over a year. I have been helping various clients to establish their presence online. I always strive to learn about the newest technologies and frameworks.",
+  "read-more": "Read More!",
+
+  "contacts": "contacts",
+  "messageMeHere": "Message me here:",
+  "openToFreelance": "I'm open to freelance opportunities. However, if you have any other requests or questions, feel free to reach out to me.",
+  "reactFrontEndFooter": "React front-end"
+}

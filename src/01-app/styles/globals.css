@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'FiraCode';
+  src: url('src/01-app/public/fonts/FiraCode-VariableFont_wght.ttf');
+  font-weight: auto;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  background-color: #282c33;
+  min-width: 320px;
+  min-height: 100vh;
+  overflow-x: hidden;
+  font-family: 'FiraCode';
+}
+
+h1 {
+  @apply text-siteExtra font-bold tracking-wide leading-normal text-siteWhite;
+}
+
+h2 {
+  @apply text-siteLarge font-bold tracking-normal leading-normal text-siteWhite;
+}
+
+h3 {
+  @apply text-siteMedium font-medium tracking-normal leading-normal text-siteWhite;
+}
+
+p {
+  @apply text-siteSmall font-normal tracking-normal leading-[25px] text-siteGray;
+}
+
+.change {
+  transition: all 0.4s ease-in-out;
+}
+
+.change.fade-out {
+  opacity: 0;
+}
+
+.change.fade-in {
+  opacity: 1;
+}
