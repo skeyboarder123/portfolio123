@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: 'FiraCode';
-  src: url('src/01-app/public/fonts/FiraCode-VariableFont_wght.ttf');
+  src: url('/src/01-app/public/fonts/FiraCode-VariableFont_wght.ttf');
   font-weight: auto;
   font-style: normal;
 }
