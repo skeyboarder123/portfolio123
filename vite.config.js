@@ -9,10 +9,17 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
 export default defineConfig({
+  base: '/portfolio/',
   plugins: [
     react(),
     copy({
-      targets: [{ src: '404.html', dest: 'dist' }],
+      targets: [
+        { src: 'index.html', dest: 'dist' },
+        { src: '404.html', dest: 'dist' },
+        { src: 'styles/*.css', dest: 'dist/styles' },
+        { src: 'scripts/*.js', dest: 'dist/scripts' },
+      ],
+      verbose: true,
     }),
   ],
   resolve: {
