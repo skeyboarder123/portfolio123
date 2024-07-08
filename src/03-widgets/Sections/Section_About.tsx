@@ -12,7 +12,7 @@ const Section_About = () => {
           <Htags>{t('about-me')}</Htags>
           <img
             className="w-[60%]"
-            src="src/01-app/public/svgs/sectionSVG/linePurple.svg"
+            src="svgs/sectionSVG/linePurple.svg"
             alt="line"
           />
         </div>
@@ -27,7 +27,7 @@ const Section_About = () => {
             <Button href="/projects">My projects</Button>
           </div>
           <div>
-            <img src="src/01-app/public/imgs/abouthood.png" alt="about" />
+            <img src="imgs/abouthood.png" alt="about" />
           </div>
         </div>
       </TextWrapper>

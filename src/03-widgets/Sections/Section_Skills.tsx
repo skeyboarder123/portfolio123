@@ -11,7 +11,7 @@ const Section_Skills = () => {
           <Htags>{t('skills')}</Htags>
           <img
             className="w-[50%]"
-            src="src/01-app/public/svgs/sectionSVG/linePurple.svg"
+            src="svgs/sectionSVG/linePurple.svg"
             alt="line"
           />
         </div>
@@ -19,27 +19,27 @@ const Section_Skills = () => {
           <div className=" relative w-[40%] h-[300px]">
             <img
               className="absolute top-[2rem] left-[4rem]"
-              src="src/01-app/public/svgs/sectionSVG/dotsCube.svg"
+              src="svgs/sectionSVG/dotsCube.svg"
               alt="dots"
             />
             <img
               className="absolute top-[0] right-[4rem]"
-              src="src/01-app/public/svgs/sectionSVG/CubeLarge.svg"
+              src="svgs/sectionSVG/CubeLarge.svg"
               alt="cube"
             />
             <img
               className="absolute bottom-[2rem] right-[0]"
-              src="src/01-app/public/svgs/sectionSVG/cubeSmall.svg"
+              src="svgs/sectionSVG/cubeSmall.svg"
               alt="cube"
             />
             <img
               className="absolute bottom-[4.5rem] right-[10rem]"
-              src="src/01-app/public/svgs/sectionSVG/dotsCube.svg"
+              src="svgs/sectionSVG/dotsCube.svg"
               alt="dots"
             />
             <img
               className="absolute bottom-[0rem] left-[6rem]"
-              src="src/01-app/public/svgs/sectionSVG/logoArt.svg"
+              src="svgs/sectionSVG/logoArt.svg"
               alt="logo"
             />
           </div>

@@ -16,9 +16,7 @@ const Button: React.FC<ButtonProps> = ({
   hrefBlank = '',
 }) => {
   const navigate = useNavigate();
-  const { t, i18n } = useTranslation();
-
-  console.log(i18n.language);
+  const { t } = useTranslation();
 
   const handleClick = () => {
     if (href.includes('#')) {

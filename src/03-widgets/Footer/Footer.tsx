@@ -1,5 +1,7 @@
 import TextWrapper from '@entities/TextWrapper';
 import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
+
 const Footer = () => {
   const { t } = useTranslation();
 
@@ -9,23 +11,23 @@ const Footer = () => {
         <div className="flex justify-between mb-[3rem]">
           <div>
             <div className="flex gap-[10px] mb-[1rem]">
-              <img src="src/01-app/public/svgs/headerSVG/logo.svg" alt="logo" />
+              <img src="svgs/headerSVG/logo.svg" alt="logo" />
               <p className="font-bold text-siteWhite">Michael</p>
             </div>
             <p>{t('reactFrontEndFooter')}</p>
           </div>
           <div className="pr-[5rem]">
             <p className=" text-siteLarge text-siteWhite mb-[1.5rem]">Media</p>
-            <div className="flex gap-[10px]">
-              <img
-                src="src/01-app/public/svgs/sectionSVG/Github.svg"
-                alt="git"
-              />
-              <img
-                src="src/01-app/public/svgs/sectionSVG/Email.svg"
-                alt="mail"
-              />
-              <img src="src/01-app/public/svgs/sectionSVG/tg.svg" alt="tg" />
+            <div className="flex gap-[10px] items-center">
+              <Link to="https://github.com/skeyboarder123" target="_blank">
+                <img src="svgs/sectionSVG/Github.svg" alt="git" />
+              </Link>
+              <Link to="https://discord.gg/4SFX39Gp" target="_blank">
+                <img src="svgs/sectionSVG/ds.svg" alt="ds" />
+              </Link>
+              <Link to="https://t.me/maikl_bon" target="_blank">
+                <img src="svgs/sectionSVG/tg.svg" alt="tg" />
+              </Link>
             </div>
           </div>
         </div>

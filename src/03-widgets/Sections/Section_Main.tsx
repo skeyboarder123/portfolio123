@@ -4,9 +4,7 @@ import classNames from 'classnames';
 import { useTranslation } from 'react-i18next';
 
 const Section_Main = () => {
-  const { t, i18n } = useTranslation();
-
-  console.log(i18n.language);
+  const { t } = useTranslation();
 
   return (
     <>
@@ -19,7 +17,7 @@ const Section_Main = () => {
       >
         <img
           className="absolute bottom-[0] left-[6rem] hidden pl:block"
-          src="src/01-app/public/svgs/sectionSVG/logoArt.svg"
+          src="svgs/sectionSVG/logoArt.svg"
           alt="logo"
         />
         <div className=" w-[50%] pl:w-[80%] phone:w-full">
@@ -39,12 +37,9 @@ const Section_Main = () => {
           </TextWrapper>
         </div>
         <div className="w-fit h-fit">
-          <img src="src/01-app/public/imgs/hoodie.png" alt="" />
+          <img src="imgs/hoodie.png" alt="" />
           <div className="border-[1px] border-siteWhite p-[9px] flex gap-[5px] w-full">
-            <img
-              src="src/01-app/public/svgs/sectionSVG/purpleStatus.svg"
-              alt="status"
-            />
+            <img src="svgs/sectionSVG/purpleStatus.svg" alt="status" />
             <p>{t('currentlyWorkingOn')}</p>
           </div>
         </div>
@@ -58,16 +53,10 @@ const Section_Main = () => {
                 {t('knocksOnKeyboard')}
               </span>
               <div className=" absolute right-[1rem] bottom-[-1rem]">
-                <img
-                  src="src/01-app/public/svgs/sectionSVG/Quotes.svg"
-                  alt="quoq"
-                />
+                <img src="svgs/sectionSVG/Quotes.svg" alt="quoq" />
               </div>
               <div className="absolute left-[1rem] top-[-1rem]">
-                <img
-                  src="src/01-app/public/svgs/sectionSVG/Quotes.svg"
-                  alt=""
-                />
+                <img src="svgs/sectionSVG/Quotes.svg" alt="" />
               </div>
             </div>
             <div className="w-full h-fit flex justify-end ">

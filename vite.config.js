@@ -32,4 +32,5 @@ export default defineConfig({
       '@shared': path.resolve(__dirname, 'src/06-shared/'),
     },
   },
+  publicDir: 'public', // по умолчанию папка public
 });

@@ -17,7 +17,7 @@ const Header: React.FC<HeaderProps> = ({ main = true }): JSX.Element => {
       <AnimaHeader>
         <div className="w-[75%] h-fit py-[20px] mx-auto flex justify-between items-center">
           <Link to="/" className="flex gap-[10px]">
-            <img src="src/01-app/public/svgs/headerSVG/logo.svg" alt="logo" />
+            <img src="svgs/headerSVG/logo.svg" alt="logo" />
             <p className="font-bold text-siteWhite">Michael</p>
           </Link>
 
@@ -65,10 +65,7 @@ const Header: React.FC<HeaderProps> = ({ main = true }): JSX.Element => {
             </ul>
           </nav>
           <div className="pl:block hidden">
-            <img
-              src="src/01-app/public/svgs/headerSVG/drop.svg"
-              alt="skladka"
-            />
+            <img src="svgs/headerSVG/drop.svg" alt="skladka" />
           </div>
         </div>
       </AnimaHeader>

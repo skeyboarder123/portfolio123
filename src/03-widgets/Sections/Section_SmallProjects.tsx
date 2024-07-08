@@ -8,7 +8,7 @@ const Section_SmallProjects = () => {
         <Htags>small-projects</Htags>
         <img
           className="w-[50%]"
-          src="src/01-app/public/svgs/sectionSVG/linePurple.svg"
+          src="svgs/sectionSVG/linePurple.svg"
           alt="line"
         />
       </div>

@@ -20,7 +20,7 @@ const Section_Projects: React.FC<ProjectsProps> = ({ main = false }) => {
             <Htags>{t('projects')}</Htags>
             <img
               className="w-[50%]"
-              src="src/01-app/public/svgs/sectionSVG/linePurple.svg"
+              src="svgs/sectionSVG/linePurple.svg"
               alt="line"
             />
           </div>
@@ -38,24 +38,19 @@ const Section_Projects: React.FC<ProjectsProps> = ({ main = false }) => {
       </Card> */}
         <div
           className={classNames(
-            'w-full flex gap-[20px] justify-center overflow-x-hidden',
+            'w-full flex gap-[20px] justify-start overflow-x-hidden',
             ' pl:flex-col pl:items-center',
             {
               'flex-wrap': main,
             }
           )}
         >
-          <Card
-            type="big"
-            imageURL="src/01-app/public/imgs/siteCard.png"
-            github
-            cached
-          >
+          <Card type="big" imageURL="imgs/siteCard.png" github>
             {['React TS Tailwind Redux', 'Portfolio', 'You are using it rn']}
           </Card>
           <Card
             type="big"
-            imageURL="src/01-app/public/imgs/MNTN.png"
+            imageURL="imgs/MNTN.png"
             github
             githubURL="https://skeyboarder123.github.io/tailwindPrac/"
           >
@@ -65,43 +60,14 @@ const Section_Projects: React.FC<ProjectsProps> = ({ main = false }) => {
               'with auth pages w/o tokens',
             ]}
           </Card>
-          <Card
-            type="big"
-            imageURL="src/01-app/public/imgs/reduxpoo.png"
-            privateq
-          >
+          <Card type="big" imageURL="imgs/reduxpoo.png" privateq>
             {[
               'React TS Framer Motion Tailwind',
               'CS cheats',
               'discarded development',
             ]}
           </Card>
-          {main && (
-            <>
-              <Card
-                type="big"
-                imageURL="src/01-app/public/imgs/reduxpoo.png"
-                privateq
-              >
-                {[
-                  'React TS Framer Motion Tailwind',
-                  'CS cheats',
-                  'discarded development',
-                ]}
-              </Card>
-              <Card
-                type="big"
-                imageURL="src/01-app/public/imgs/reduxpoo.png"
-                privateq
-              >
-                {[
-                  'React TS Framer Motion Tailwind',
-                  'CS cheats',
-                  'discarded development',
-                ]}
-              </Card>
-            </>
-          )}
+          {main && <></>}
         </div>
       </TextWrapper>
     </section>

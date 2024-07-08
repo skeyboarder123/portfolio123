@@ -23,7 +23,7 @@ export default {
       },
       width: {
         smallCardSize: 'clamp(200px, 300px, 50%)',
-        cardSize: 'clamp(280px, 40%, 50%)',
+        cardSize: 'clamp(280px, 60%, 50%)',
       },
     },
   },
